@@ -1,0 +1,15 @@
+1)Revise el enlace de wikipedia propocionado por el profesor:
+
+https://es.wikipedia.org/wiki/Sistema_de_coordenadas
+gl
+
+2)Revise el libro "Graficos por computadora con OpénGL"
+
+https://ingenieriayeducacion.files.wordpress.com/2013/12/graficosporcomputadorayopengl.pdf
+
+3)Diferentes articulos en la web
+
+https://sites.google.com/site/calculovectorialhakim/coordenadas-cilindricas-y-esfericas
+
+4)un video de youtube acerca de las coordenadas
+https://www.youtube.com/watch?v=W0NiGCpvCPs&t=266s
