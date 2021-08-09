@@ -27,9 +27,10 @@ public class Cartesiana
     }
       public Cartesiana polar_cartesiano (Polar p) /*De polares a cartesianas*/
       {
-          float x = p.getRadio()*(float)Math.cos(p.getAngulo());
+          /*float x = p.getRadio()*(float)Math.cos(p.getAngulo());
           float y = p.getRadio()*(float)Math.sin(p.getAngulo());
-            return new Cartesiana();
+            return new Cartesiana(x,y);*/
+          return polar_cartesiano(p.getRadio(),p.getAngulo());
         }
     
     public Polar cartesiano_polar(float x, float y)/*De  cartesianas a polares*/ 
@@ -41,9 +42,10 @@ public class Cartesiana
     }
  public Polar cartesiano_polar (Cartesiana c) /*De  cartesianas a polares*/ 
  {
-        float radio = (float)Math.sqrt(Math.pow(c.getX(), 2)+Math.pow(c.getY(), 2));   
+        /*float radio = (float)Math.sqrt(Math.pow(c.getX(), 2)+Math.pow(c.getY(), 2));   
         float angulo = (float)Math.atan(c.getY()/c.getX());   
-            return new Polar();
+            return new Polar();*/
+            return cartesiano_polar(c.getX(),c.getY());
         }
         
     public float getY() {
